@@ -47,7 +47,7 @@ typedef NS_ENUM(NSUInteger, THEPeerState)
 @property (nonatomic, readonly) NSString * name;
 @property (nonatomic) BOOL available;
 
-// Class initializer.
+// Class initialiser.
 - (instancetype)initWithIdentifier:(NSString *)peerIdentifier
                               name:(NSString *)name;
 
